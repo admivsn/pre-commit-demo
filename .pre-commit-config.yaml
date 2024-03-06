@@ -42,3 +42,5 @@ repos:
     hooks:
     -   id: sqlfluff-lint
         args: [--dialect, "redshift"]
+    -   id: sqlfluff-fix
+        args: [--dialect, "redshift"]
